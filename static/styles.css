@@ -1,0 +1,221 @@
+/*Color theme: #29585C #416A71 #668591 #8AA0B0 #AEBBD0 #667a85 #999eaf #a9b3b4*/
+
+@import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+/*Transitions for slides inside profile and projects*/
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.center {
+    text-align: center;
+}
+
+/*INDEX*/
+/*Header which serves as link to navigate back to homepage*/
+a.index {
+    text-decoration: none;
+    color: #416A71;
+    font-size: 50px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Standardized fonts*/
+body {
+    font-family: "courier new", monospace;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+td.links {
+    padding: 10px;
+}
+
+/*Links used to navigate through webpage*/
+a.nav {
+    color: black;
+}
+
+a.nav:hover {
+    text-decoration: none;
+    color: #667a85;
+}
+
+/*For ambient coding image*/
+img {
+    padding-bottom: 20px;
+}
+
+/*Line breaker*/
+.solid {
+  border-top: 1px solid #8AA0B0;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/*Social media styles*/
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a.media {
+    font-size: 50px;
+    padding: 20px 20px;
+    margin: 10px 50px;
+    color: #416A71;
+    transition: .5s;
+}
+
+a.media:hover {
+    text-decoration: none;
+    font-size: 70px;
+    color: #8AA0B0;
+    transition: .5s;
+}
+
+/*RESEARCH*/
+div.research {
+    text-align: center;
+    color: #668591;
+    font-size: 3vh;
+    margin: 25vh;
+}
+
+/*PROFILE*/
+div.profile {
+    text-align: center;
+    color: #668591;
+    font-size: 20px;
+    margin: 250px;
+}
+
+td.snake_model {
+    padding-left: 500px;
+}
+
+/*Sliding Transition*/
+:root {
+  --secondary-color: #AEBBD0;
+  --contrast-color: #416A71;
+  --contrast-color2: #668591;
+}
+
+/*Style for the elements within the sliding transitions*/
+.container{
+  display: flex;
+  height: 70vh;
+  width: 1500px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: expand .8s ease forwards;
+  position: relative;
+  background-color: var(--contrast-color);
+  font-family: "courier new", monospace;
+  transition: all .8s ease;
+}
+
+.off {
+  background-color: var(--contrast-color2);
+}
+
+.container_content {
+ width: 50%;
+}
+
+.container_content_inner {
+  width: 80%;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.container_outer_img {
+  margin: 50px;
+  width: 50%;
+  overflow: hidden;
+}
+
+.container_img {
+  width: 100%;
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.picture_resize {
+  width: 60%;
+}
+
+.hide_p {
+  height: auto;
+  overflow: hidden;
+}
+
+.p {
+  line-height: 28px;
+  transform: translateY(300px);
+  animation: slideUp .8s ease-in-out forwards .8s;
+  font-size: 2vh;
+}
+
+.hide_title {
+  overflow: hidden;
+  height: auto;
+}
+
+.title{
+    font-size: 5vh;
+    color: #AEBBD0;
+    margin-bottom: 20px;
+    transform: translateY(100px);
+    animation: slideUp .8s ease forwards .5s;
+}
+
+/*Scroll Snap*/
+.parent {
+  margin-top: 0px;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  flex-basis: 50%;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.snap{
+	padding: 10vh;
+  font-size: 1.4rem;
+  text-align: center;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+	display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
