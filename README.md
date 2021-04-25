@@ -1,16 +1,14 @@
-### Hi there 👋
+Welcome to the code for my first website! -April 25, 2021
 
-<!--
-**JustinPark845/JustinPark845** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Some info about the website:
+- This is the first prototype of my website with comments explaining every process.
+- It features the basics of my profile and works, which will be updated continually. It is simplistic in content/detail while including some visually playful transitions.
 
-Here are some ideas to get you started:
+Future plans for the website:
+- My plan is to work with JavaScript to implement the transition I have on the first slide of each page onto every other slide, and to have it triggered when scrolled into view. I also plan to use JavaScript to incorporate my past python code directly onto to the website to make the my games playable for the viewer.
+- Hopefully, in the future when it is more necessary, I will purchase a domain and host the website.
+- I will keep adding updated information to my website as my portfolio grows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Sources:
+- Credit to Harvard's cs50 coding course from which I learned most of my HTML, CSS, and Javascript code.
+- Also credit to W3Schools for always answering my most simplest questions.
