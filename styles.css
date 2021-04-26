@@ -14,7 +14,7 @@
 
 @keyframes slideUp {
   0% {
-    transform: translateY(300px);
+    transform: translateY(400px);
   }
   100% {
     transform: translateY(0px);
@@ -181,7 +181,7 @@ td.snake_model {
 
 .p {
   line-height: 28px;
-  transform: translateY(300px);
+  transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
   font-size: 1vh;
 }
