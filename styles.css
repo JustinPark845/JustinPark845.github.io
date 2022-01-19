@@ -151,6 +151,7 @@ td.snake_model {
 
 .container_content {
  width: 50%;
+ background-color:red;
 }
 
 .container_content_inner {
