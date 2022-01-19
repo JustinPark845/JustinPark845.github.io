@@ -134,7 +134,7 @@ td.snake_model {
 .container{
   display: flex;
   height: 70vh;
-  width: 1500px;
+  /* width: 1500px; */
   justify-content: center;
   align-items: center;
   color: white;
