@@ -209,6 +209,7 @@ td.snake_model {
   margin-left: auto;
   margin-right: auto;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .snap{
