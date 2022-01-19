@@ -206,6 +206,8 @@ td.snake_model {
   scroll-snap-type: y mandatory;
   flex-basis: 50%;
   max-height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
   overflow-y: scroll;
 }
 
