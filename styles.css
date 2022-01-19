@@ -133,8 +133,8 @@ td.snake_model {
 /*Style for the elements within the sliding transitions*/
 .container{
   display: flex;
-  height: 70vh;
-  /* width: 1500px; */
+  height: 70vh; 
+  width: 100%;
   justify-content: center;
   align-items: center;
   color: white;
