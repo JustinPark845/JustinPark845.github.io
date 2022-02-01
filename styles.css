@@ -163,6 +163,7 @@ td.snake_model {
   margin: 50px;
   width: 50%;
   overflow: hidden;
+  background-color:red;
 }
 
 .container_img {
