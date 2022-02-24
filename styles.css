@@ -188,7 +188,7 @@ td.snake_model {
   /* line-height: 28px; */
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
-  font-size:calc(8px + 1vw);
+  font-size:calc(5px + 1vw);
 }
 
 .hide_title {
