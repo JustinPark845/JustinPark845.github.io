@@ -187,7 +187,6 @@ td.snake_model {
 
 .p {
   width: auto;
-  background-color:red;
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
 }
