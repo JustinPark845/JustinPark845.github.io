@@ -186,10 +186,10 @@ td.snake_model {
 }
 
 .p {
-  line-height: 28px;
+  /* line-height: 28px; */
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
-  font-size: 2vh;
+  font-size: 2vw;
   background-color: red;
 }
 
