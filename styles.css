@@ -141,7 +141,8 @@ td.snake_model {
   color: white;
   animation: expand .8s ease forwards;
   position: relative;
-  background-color: var(--contrast-color);
+  /* background-color: var(--contrast-color); */
+  background-color: purple;
   font-family: "courier new", monospace;
   transition: all .8s ease;
 }
