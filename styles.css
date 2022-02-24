@@ -135,14 +135,13 @@ td.snake_model {
 .container{
   display: flex;
   height: 70vh; 
-  width: 150%;
+  width: 1000px;
   justify-content: center;
   align-items: center;
   color: white;
   animation: expand .8s ease forwards;
   position: relative;
-  /* background-color: var(--contrast-color); */
-  background-color: purple;
+  background-color: var(--contrast-color);
   font-family: "courier new", monospace;
   transition: all .8s ease;
 }
@@ -219,7 +218,6 @@ td.snake_model {
   margin-right: auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: plum;
 }
 
 .snap{
@@ -231,5 +229,4 @@ td.snake_model {
 	display: flex;
   flex-flow: column;
   justify-content: center;
-  background-color: greenyellow;
 }
