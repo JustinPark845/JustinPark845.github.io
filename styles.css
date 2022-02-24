@@ -80,7 +80,6 @@ img {
   border-top: 1px solid #8AA0B0;
   margin-right: 15%;
   margin-left: 15%;
-  background-color:yellow;
 }
 
 /*Social media styles*/
@@ -190,7 +189,7 @@ td.snake_model {
   /* line-height: 28px; */
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
-  font-size: 0.5vw;
+  font-size: 1vw;
   background-color: red;
 }
 
