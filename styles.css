@@ -181,6 +181,7 @@ td.snake_model {
 .hide_p {
   height: auto;
   overflow: hidden;
+  background-color:blue;
 }
 
 .p {
@@ -188,6 +189,7 @@ td.snake_model {
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
   font-size: 2vh;
+  background-color: red;
 }
 
 .hide_title {
