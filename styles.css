@@ -134,7 +134,7 @@ td.snake_model {
 .container{
   display: flex;
   height: 70vh; 
-  width: 120%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   color: white;
@@ -209,7 +209,7 @@ td.snake_model {
 /*Scroll Snap*/
 .parent {
   margin-top: 0px;
-  width: 80%;
+  width: 90%;
   scroll-snap-type: y mandatory;
   flex-basis: 50%;
   max-height: 80vh;
