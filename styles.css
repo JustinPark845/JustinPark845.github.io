@@ -230,4 +230,5 @@ td.snake_model {
 	display: flex;
   flex-flow: column;
   justify-content: center;
+  background-color: greenyellow;
 }
