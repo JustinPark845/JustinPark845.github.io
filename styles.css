@@ -217,6 +217,7 @@ td.snake_model {
   margin-right: auto;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: plum;
 }
 
 .snap{
