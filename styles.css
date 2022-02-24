@@ -182,13 +182,13 @@ td.snake_model {
 .hide_p {
   height: auto;
   overflow: hidden;
+  font-size: max(7px, 1vw);
 }
 
 .p {
   /* line-height: 28px; */
   transform: translateY(400px);
   animation: slideUp .8s ease-in-out forwards .8s;
-  font-size: max(7px, 1vw);
 }
 
 .hide_title {
