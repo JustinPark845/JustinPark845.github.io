@@ -83,15 +83,17 @@ img {
 }
 
 /*Social media styles*/
-li {
-    list-style: none;
-    display: inline-block;
+.media_box {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  width: 40%; 
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 a.media {
-    font-size: 50px;
-    padding: 20px 20px;
-    margin: 10px 50px;
+    font-size: 4vw;
     color: #416A71;
     transition: .5s;
 }
