@@ -39,7 +39,7 @@
 a.index {
     text-decoration: none;
     color: #416A71;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 table {
@@ -107,8 +107,8 @@ a.media:hover {
 div.research {
     text-align: center;
     color: #668591;
-    font-size: 5%;
-    margin: 25%;
+    font-size: 3vh;
+    margin: 25vh;
 }
 
 /*PROFILE*/
@@ -182,7 +182,7 @@ td.snake_model {
 .hide_p {
   height: auto;
   overflow: hidden;
-  font-size: max(7px, 1vw);
+  font-size: max(7px, 1%);
 }
 
 .p {
@@ -210,7 +210,7 @@ td.snake_model {
   width: 90%;
   scroll-snap-type: y mandatory;
   flex-basis: 50%;
-  max-height: 80vh;
+  max-height: 80%;
   margin-left: auto;
   margin-right: auto;
   overflow-y: scroll;
@@ -219,7 +219,7 @@ td.snake_model {
 
 .snap{
 	padding: 10%;
-  font-size: 5%;
+  font-size: 1.4rem;
   text-align: center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
