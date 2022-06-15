@@ -1,6 +1,6 @@
 /* scale content to page width */
 var w = window.innerWidth;
-var wscale = w / 1441;
+var wscale = Math.min(w / 1441,1.1);
 var hscale = (723/1441) * w;
 var wmarginsubtract = (1441 - w) / 2;
 var hmarginsubtract = (723 - hscale) / 2;
