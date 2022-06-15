@@ -12,41 +12,47 @@
         <link rel="icon" type="image/png" href="media/img/tabicon.png">
     </head>
     <body>
-        <div>
-            <!--Headings for website-->
-            <h1 class = "center">
-                <a class = index href="/">Justin Park</a>
-            </h1>
-            <h2 class = "center">
-                parkaxp@bc.edu|201-663-2139
-            </h2>
-            <table>
-                <tr>
-                    <!--Links to navigate through the different webpages-->
-                    <td class = links><a class = nav href="profile.html">Profile</a></td>
-                    <!-- <td class = links><a class = nav href="resume.html">Resume</a></td> -->
-                    <td class = links><a class = nav href="projects.html">Projects</a></td>
-                </tr>
-            </table>
-        </div>
-        <!--Home Screen Photo-->
-        <div class = "center">
-            <img alt ="ambient coding" src="media/img/ambient_coding.jpg" width = "80%" height = "80%">
-        </div>
-        <div>
-            <hr class="solid">
-            <!--Links to different social media-->
-            <div class="center">
-                <ul>
-                    <li><a class = media href="https://www.instagram.com/justindpark_/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a class = media href="https://www.linkedin.com/in/justin-park-79800a202/"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a class = media href="https://github.com/JustinPark845"><i class="fab fa-github-square"></i></a></li>
-                </ul>
-                <!--Year established-->
-                <div>
-                    2021 ◦ Justin Park
+        <div id="mainwindow" style="position:absolute; height:723px; width:1441px; top:0; bottom:0; left:0; right:0; margin:auto; overflow:hidden;">
+            <div>
+                <!--Headings for website-->
+                <h1 class = "center">
+                    <a class = index href="/">Justin Park</a>
+                </h1>
+                <h2 class = "center">
+                    parkaxp@bc.edu|201-663-2139
+                </h2>
+                <table>
+                    <tr>
+                        <!--Links to navigate through the different webpages-->
+                        <td class = links><a class = nav href="profile.html">Profile</a></td>
+                        <!-- <td class = links><a class = nav href="resume.html">Resume</a></td> -->
+                        <td class = links><a class = nav href="projects.html">Projects</a></td>
+                    </tr>
+                </table>
+            </div>
+            <!--Home Screen Photo-->
+            <div class = "center">
+                <img alt ="ambient coding" src="media/img/ambient_coding.jpg" width = "80%" height = "80%">
+            </div>
+            <div>
+                <hr class="solid">
+                <!--Links to different social media-->
+                <div class="center">
+                    <ul>
+                        <li><a class = media href="https://www.instagram.com/justindpark_/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class = media href="https://www.linkedin.com/in/justin-park-79800a202/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a class = media href="https://github.com/JustinPark845"><i class="fab fa-github-square"></i></a></li>
+                    </ul>
+                    <!--Year established-->
+                    <div>
+                        2021 ◦ Justin Park
+                    </div>
                 </div>
             </div>
         </div>
+        <!--disclaimer statement regarding screen size-->
+        <button id="disclaimerbutton" onclick="hide()" style="display:none;"></button>
+        <label for="disclaimerbutton" id="disclaimer" style="position:absolute; color:gray; cursor:pointer;">having trouble with the screen size? try going horizontal on your phone, or refresh the page after you adjust to a preferred size! otherwise click to hide.</label>
     </body>
+    <script src="static/js/scripts.js"></script>
 </html>
