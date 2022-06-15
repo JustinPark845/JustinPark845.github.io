@@ -107,7 +107,7 @@ a.media:hover {
 div.research {
     text-align: center;
     color: #668591;
-    font-size: 12px;
+    font-size: 5%;
     margin: 25%;
 }
 
@@ -219,7 +219,7 @@ td.snake_model {
 
 .snap{
 	padding: 10%;
-  font-size: 1.4rem;
+  font-size: 5%;
   text-align: center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
