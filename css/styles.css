@@ -75,44 +75,6 @@ img {
     padding-bottom: 20px;
 }
 
-/*Line breaker*/
-.solid {
-  border-top: 1px solid #8AA0B0;
-  margin-right: 15%;
-  margin-left: 15%;
-}
-
-/*Social media styles*/
-.media_box {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-evenly; 
-  width: 40%; 
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-a.media {
-    font-size: 4vw;
-    color: #416A71;
-    transition: .5s;
-}
-
-a.media:hover {
-    text-decoration: none;
-    font-size: 70px;
-    color: #8AA0B0;
-    transition: .5s;
-}
-
-/*RESEARCH*/
-div.research {
-    text-align: center;
-    color: #668591;
-    font-size: 5%;
-    margin: 25%;
-}
-
 /*PROFILE*/
 div.profile {
     text-align: center;
@@ -228,4 +190,34 @@ td.snake_model {
 	display: flex;
   flex-flow: column;
   justify-content: center;
+}
+
+/*Line breaker*/
+.solid {
+  border-top: 1px solid #8AA0B0;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/*Social media styles*/
+.media_box {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  width: 40%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+a.media {
+    font-size: 3vw;
+    color: #416A71;
+    transition: .5s;
+}
+
+a.media:hover {
+    text-decoration: none;
+    font-size: 4vw;
+    color: #8AA0B0;
+    transition: .5s;
 }
