@@ -11,3 +11,7 @@ document.getElementById("mainwindow").style.OTransform = 'scale('+wscale+')';
 document.getElementById("mainwindow").style.msTransform = 'scale('+wscale+')';
 document.getElementById("mainwindow").style.margin= '-'+hmarginsubtract+'px -'+wmarginsubtract+'px 0px -'+wmarginsubtract+'px';
 document.getElementById("disclaimer").style.top= hscale+'px';
+
+function hide() {
+    document.getElementById("disclaimer").style.display= 'none';
+}
