@@ -155,11 +155,6 @@ img {
   width: 60%;
 }
 
-.container_mp4 {
-  width: 100%;
-  animation: slideIn 1.5s ease-in-out forwards;
-}
-
 /*Scroll Snap*/
 .parent {
   height: max(35vw, 300px);
