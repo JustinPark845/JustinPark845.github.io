@@ -6,105 +6,98 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <link href = "css/styles.css" rel = "stylesheet">
+        <link href = "./static/style.css" rel = "stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
         <title>Welcome to my Homepage</title>
         <link rel="icon" type="image/png" href="media/img/tabicon.png">
     </head>
     <body>
         <div>
-            <!--Headings for website-->
-            <h1 class = "center">
-                <a class = index href="/">Justin Park</a>
-            </h1>
-            <h2 class = "center">
-                parkaxp@bc.edu|201-663-2139
-            </h2>
-            <table>
-                <tr>
-                    <!--Links to navigate through the different webpages-->
-                    <td class = links><a class = nav href="profile.html">Profile</a></td>
-                    <!-- <td class = links><a class = nav href="resume.html">Resume</a></td> -->
-                    <td class = links><a class = nav href="projects.html">Projects</a></td>
-                </tr>
-            </table>
-        </div>
-            <!--Insert line break-->
-            <hr class="solid">
-            <!--Scroll Snap Start-->
-            <div class="parent">
-                <!--First element within scroll snap-->
-                <li class="snap">
-                    <!--Individual containers within each scroll snap element with transition style classes-->
-                    <div class= 'container'>
-                        <div class="container_content">
-                            <div class="container_content_inner">
+            <div>
+                <!--Headings for website-->
+                <h1 class = "center">
+                    <a class = index href="/">Justin Park</a>
+                </h1>
+                <h2 class = "center">
+                    parkaxp@bc.edu|201-663-2139
+                </h2>
+                <table>
+                    <tr>
+                        <!--Links to navigate through the different webpages-->
+                        <td class = links><a class = nav href="profile.html">Profile</a></td>
+                        <!-- <td class = links><a class = nav href="resume.html">Resume</a></td> -->
+                        <td class = links><a class = nav href="projects.html">Projects</a></td>
+                    </tr>
+                </table>
+            </div>
+                <!--Insert line break-->
+                <hr class="solid">
+                <!--Scroll Snap Start-->
+                <div class="parent">
+                    <!--First element within scroll snap-->
+                    <li class="snap">
+                        <!--Individual containers within each scroll snap element with transition style classes-->
+                        <div class= 'container'>
+                            <div class="container_content_description">
                                 <!--Title with text-->
                                 <div class="hide_title">
                                     <h1 class = "title">About Me</h1>
-                                </div>
-                                <div class="hide_p">
+                                </div>                               
+                                <div class="hide_p">     
                                     <p class="p">
                                         Hello, my name is Justin Park and I am an aspiring software engineer studying at Boston College. I am currently a junior and am pursuing a Bachelor in Science in Computer Science and Major in Economics.
                                     </p>
                                 </div>
                             </div>
+                            <!--Image-->
+                            <div class="container_content_img">
+                                <img src='./media/img/BC_Selfie.jpg'  alt="" class="container_img" style="z-index=1"/>
+                            </div>
                         </div>
-                        <!--Image-->
-                        <div class="container_outer_img">
-                            <img src='media/img/BC_Selfie.jpg'  alt="" class="container_img"/>
-                        </div>
-                    </div>
-                </li>
-                <!--Each future iteration of the element is slightly altered for style, but largely the same format-->
-                <li class="snap">
-                    <div class= 'container off'>
-                        <div class="container_outer_img">
-                            <img src='media/img/aerok.jpg'  alt="" class="container_img picture_resize"/>
-                        </div>
-                        <div class="container_content">
-                            <div class="container_content_inner">
-                                <div class="hide_title">
-                                    <h1 class = "title">Computer Science Background</h1>
-                                </div>
+                    </li>
+                    <!--Each future iteration of the element is slightly altered for style, but largely the same format-->
+                    <li class="snap">
+                        <!--Individual containers within each scroll snap element with transition style classes-->
+                        <div class= 'container off'>
+                            <!--Image-->
+                            <div class="container_content_img">
+                                <img src='./media/img/BC_Selfie.jpg'  alt="" class="container_img"/>
+                            </div>
+                            <div class="container_content_description">
+                                <!--Title with text-->
+                                <h1 class = "title">Computer Science Background</h1>
                                 <div class="hide_p">
                                     <p class="p">
-                                        In my free time, I like to dance with my college dance team, AeroK, or go to the gym. I also like to watch shows (right now I really like Daredevil and Vincenzo), play games of all kinds, and sing in the shower.
+                                        I started my Computer Science study in my Freshman year of college in 2019. I started with some simple coding games such as Tetris, however, that interest quickly shifted to Website/App Development. Specifically, I am skilled in many Front-end frameworks and languages, which I have implemented throughout my internships detailed in <a style="text-decoration:underline; color: white;" href="projects.html">Projects</a>. I am also seeking to expand my expertise to Software Engineering aswell, leading to my most recent position at GMFinancial. I look forward to continue accelerating my career while learning the many different clusters within Computer Science!
                                     </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="snap">
-                    <div class= 'container off'>
-                        <div class="container_outer_img">
-                            <img src='media/img/aerok.jpg'  alt="" class="container_img picture_resize"/>
-                        </div>
-                        <div class="container_content">
-                            <div class="container_content_inner">
+                    </li>
+                    <li class="snap">
+                        <div class= 'container'>
+                            <div class="container_content_description">
                                 <div class="hide_title">
                                     <h1 class = "title">Hobbies</h1>
-                                </div>
-                                <div class="hide_p">
+                                </div>                               
+                                <div class="hide_p">     
                                     <p class="p">
                                         In my free time, I like to dance with my college dance team, AeroK, or go to the gym. I also like to watch shows (right now I really like Daredevil and Vincenzo), play games of all kinds, and sing in the shower.
                                     </p>
                                 </div>
                             </div>
+                            <div class="container_content_img">
+                                <img src='./media/img/aerok.jpg'  alt="" class="container_img" style="z-index=1"/>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="snap">
-                    <div class= 'container'>
-                        <div class="container_outer_img">
-                            <img src='media/img/cowboyhat.jpg'  alt="" class="container_img picture_resize"/>
-                        </div>
-                        <div class="container_content">
-                            <div class="container_content_inner">
-                                <div class="hide_title">
-                                    <h1 class = "title">Young</h1>
-                                </div>
+                    </li>
+                    <li class="snap">
+                        <div class= 'container off'>
+                            <div class="container_content_img">
+                                <img src='./media/img/piano.jpg'  alt="" class="container_img"/>
+                                <img src='./media/img/theatre.jpg'  alt="" class="container_img"/>                              </div>
+                            <div class="container_content_description">
+                                <h1 class = "title">Young</h1>
                                 <div class="hide_p">
                                     <p class="p">
                                         When I was young, I was extremely interested in playing the piano and being in musicals. The picture in the top right is me playing piano at Merkin Hall and the picture on the bottom right is me playing Dan Schwartz in "25th Annual Putnam County Spelling Bee".
@@ -112,43 +105,37 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="container_outer_img">
-                            <img src='media/img/piano.jpg'  alt="" class="container_img picture_resize1"/>
-                            <img src='media/img/theatre.jpg'  alt="" class="container_img picture_resize"/>  
-                        </div>
-                    </div>
-                </li>
-                <li class="snap">
-                    <div class= 'container off'>
-                        <div class="container_content">
-                            <div class="container_content_inner">
-                                <div class="hide_p">
+                    </li>
+                    <li class="snap">
+                        <div class= 'container'>
+                            <div class="container_content_description">
+                                <div class="hide_title">
+                                    <h1 class = "title">Dogs</h1>
+                                </div>                               
+                                <div class="hide_p">     
                                     <p class="p">
                                         Enjoy a picture of my dogs! 
                                     </p>
                                 </div>
                             </div>
+                            <div class="container_content_img">
+                                <img src='./media/img/jamieari.jpg'  alt="" class="container_img" style="z-index=1"/>
+                            </div>
                         </div>
-                        <div class="container_outer_img">
-                            <img src='media/img/jamieari.jpg'  alt="" class="container_img picture_resize"/>
-                        </div>
-                    </div>
-                </li>
-            </div>
-        <div>
-            <hr class="solid">
-            <!--Links to different social media-->
-            <div class="center">
-                <ul>
-                    <li><a class = media href="https://www.instagram.com/justindpark_/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a class = media href="https://www.linkedin.com/in/justin-park-79800a202/"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a class = media href="https://github.com/JustinPark845"><i class="fab fa-github-square"></i></a></li>
-                </ul>
+                    </li>
+                </div>
+            <div>
+                <hr class="solid">
+                <!--Links to different social media-->
+                <div class="center media_box">
+                    <div><a class = media href="https://www.instagram.com/justindpark_/"><i class="fab fa-instagram"></i></a></div>
+                    <div><a class = media href="https://www.linkedin.com/in/justin-park-79800a202/"><i class="fab fa-linkedin"></i></a></div>
+                    <div><a class = media href="https://github.com/JustinPark845"><i class="fab fa-github-square"></i></a></div>
+                </div>
                 <!--Year established-->
-                <div>
+                <div class = "center">
                     2021 ◦ Justin Park
                 </div>
             </div>
         </div>
-    </body>
 </html>
