@@ -138,6 +138,17 @@ img {
   height: 80%;
 }
 
+
+
+
+.hide_scrollbar {
+  height: 500px;
+  width: 200px;
+  background-color:red;
+}
+
+
+
 .container_content_img {
   margin: 50px;
   height:90%;
