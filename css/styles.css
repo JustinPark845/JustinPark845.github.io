@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+display: none;
+}
+
 /*Color theme: #29585C #416A71 #668591 #8AA0B0 #AEBBD0 #667a85 #999eaf #a9b3b4*/
 
 @import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
