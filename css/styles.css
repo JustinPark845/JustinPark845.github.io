@@ -126,6 +126,7 @@ img {
 }
 
 .p {
+  position: relative;
   text-align: center;
   width:90%;
   margin-left: auto;
@@ -142,8 +143,12 @@ img {
 
 
 .hide_scrollbar {
-  height: 500px;
-  width: 200px;
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+  width: 90%;
   background-color:red;
 }
 
