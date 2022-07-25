@@ -135,23 +135,9 @@ img {
 
 .hide_p {
   overflow: scroll;
+  scrollbar-width: none;
   height: 80%;
 }
-
-
-
-
-.hide_scrollbar {
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  height: 85%;
-  width: 50%;
-  background-color:red;
-}
-
-
-
 .container_content_img {
   margin: 50px;
   height:90%;
