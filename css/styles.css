@@ -110,7 +110,6 @@ img {
   display:flex;
   flex-direction: column;
   justify-content:center;
-  overflow:hidden;
   height: 90%;
   width: 40%;
   border-radius: 15px;
@@ -125,7 +124,6 @@ img {
 }
 
 .hide_title {
-  overflow: hidden;
   height: auto;
 }
 
@@ -143,7 +141,7 @@ img {
   height: 80%;
 }
 .container_content_img {
-  margin: 50px;
+  margin: 10px;
   height:90%;
   width: 60%;
   overflow: hidden;
@@ -171,7 +169,7 @@ img {
 }
 
 .snap{
-	padding: 10%;
+  height: max(35vw, 300px);
   text-align: center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
